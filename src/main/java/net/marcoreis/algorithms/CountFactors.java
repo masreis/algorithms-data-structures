@@ -1,11 +1,11 @@
-package net.ads.arrays;
+package net.marcoreis.algorithms;
 
 public class CountFactors {
 	public static void main(String[] args) {
 		int N = 24;
-		 N = 10;
+//		 N = 10;
 		// N = 9;
-//		N = 16;
+		 N = 16;
 //		 N = 1;
 		// N = Integer.MAX_VALUE;
 		System.out.println(new CountFactors().solution(N));
