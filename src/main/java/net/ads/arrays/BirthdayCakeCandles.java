@@ -5,11 +5,13 @@ import java.util.Map;
 
 public class BirthdayCakeCandles {
 	public static void main(String[] args) {
-		System.out.println(birthdayCakeCandles(new int[] { 3, 2, 1, 3 }));
+		System.out.println(
+				birthdayCakeCandles(new int[] { 3, 2, 1, 3 }));
 	}
 
 	static int birthdayCakeCandles(int[] ar) {
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> map =
+				new HashMap<Integer, Integer>();
 
 		// new TreeMap<>(new Comparator<Integer>() {
 		// @Override

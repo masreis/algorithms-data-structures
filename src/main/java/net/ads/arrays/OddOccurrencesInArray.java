@@ -7,7 +7,8 @@ public class OddOccurrencesInArray {
 
 	public static void main(String[] args) {
 		int[] A = new int[] { 9, 3, 9, 3, 9, 7, 9 };
-		System.out.println(new OddOccurrencesInArray().solution(A));
+		System.out.println(
+				new OddOccurrencesInArray().solution(A));
 	}
 
 	public int solution(int[] A) {

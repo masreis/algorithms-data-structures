@@ -8,12 +8,14 @@ import java.util.List;
 import java.util.Map;
 
 //https://massivealgorithms.blogspot.com/2015/07/codility-lesson-4-number-of-disc.html
+//FIXME Review
 public class NumberOfDiscIntersections {
 	public static void main(String[] args) {
 		int[] A = new int[] { 1, 5, 2, 1, 4, 0 };
 		// A = new int[] { 1, 10, 100, 1 };
 		// A = new int[] { 1, 2147483647, 0 };
-		System.out.println(new NumberOfDiscIntersections().solution(A));
+		System.out.println(
+				new NumberOfDiscIntersections().solution(A));
 	}
 
 	public int solution(int[] A) {
@@ -47,7 +49,7 @@ public class NumberOfDiscIntersections {
 		});
 
 		// TODO melhorar para o(n) ou o(nlogn)
-		for (int i = 0; i < A.length; i++) {
+		for (int i = 0; i < A.length ; i++) {
 			MinMax minmax1 = list.get(i);
 			System.out.println(minmax1);
 			for (int j = i + 1; j < A.length; j++) {

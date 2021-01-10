@@ -12,7 +12,8 @@ public class SparseArrays {
 		System.out.println(Arrays.toString(result));
 	}
 
-	static int[] matchingStrings(String[] strings, String[] queries) {
+	static int[] matchingStrings(String[] strings,
+			String[] queries) {
 		Map<String, Integer> map = new HashMap<>();
 		int[] result = new int[queries.length];
 		for (String string : strings) {

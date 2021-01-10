@@ -7,7 +7,8 @@ import java.util.List;
 public class DynamicArray {
 	public static void main(String[] args) {
 		int n = 2;
-		List<List<Integer>> queries = new ArrayList<List<Integer>>();
+		List<List<Integer>> queries =
+				new ArrayList<List<Integer>>();
 		Integer[] a1 = { 1, 0, 5 };
 		Integer[] a2 = { 1, 1, 7 };
 		Integer[] a3 = { 1, 0, 3 };
@@ -22,8 +23,10 @@ public class DynamicArray {
 		System.out.println(Arrays.toString(list.toArray()));
 	}
 
-	public static List<Integer> dynamicArray(int n, List<List<Integer>> queries) {
-		List<List<Integer>> seqList = new ArrayList<List<Integer>>(n);
+	public static List<Integer> dynamicArray(int n,
+			List<List<Integer>> queries) {
+		List<List<Integer>> seqList =
+				new ArrayList<List<Integer>>(n);
 		for (int i = 0; i < n; i++) {
 			seqList.add(new ArrayList<Integer>());
 		}

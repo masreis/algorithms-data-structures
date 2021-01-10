@@ -7,7 +7,8 @@ public class MostPopularNumber {
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 3, 4, 5, 6, 1, 1, 3, 3 };
 		int tamanho = array.length;
-		int retorno = new MostPopularNumber().numMaisPopular(array, tamanho);
+		int retorno = new MostPopularNumber()
+				.numMaisPopular(array, tamanho);
 		System.out.println("Tamanho: " + retorno);
 	}
 

@@ -2,9 +2,11 @@ package net.ads.arrays;
 
 public class AlmostPalindrome {
 	public static void main(String[] args) {
-		boolean retorno = new AlmostPalindrome().quasePalindromo("abcddccx");
+		boolean retorno = new AlmostPalindrome()
+				.quasePalindromo("abcddccx");
 		System.out.println("Palindromo: " + retorno);
-		retorno = new AlmostPalindrome().quasePalindromo("abcddbbb");
+		retorno = new AlmostPalindrome()
+				.quasePalindromo("abcddbbb");
 		System.out.println("Palindromo: " + retorno);
 	}
 

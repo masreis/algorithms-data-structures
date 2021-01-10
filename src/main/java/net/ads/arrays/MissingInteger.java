@@ -10,9 +10,9 @@ import java.util.TreeSet;
 public class MissingInteger {
 	public static void main(String[] args) {
 		int[] A = { 1, 3, 6, 4, 1, 2 };
-		A = new int[] { 1, 2, 3 };
-		A = new int[] { -1, -2, -3 };
-		A = new int[] { -1, -2, -3, 65536, 1, 4, 2, 3 };
+		 A = new int[] { 1, 2, 3 };
+		 A = new int[] { -1, -2, -3 };
+		 A = new int[] { -1, -2, -3, 65536, 1, 4, 2, 3 };
 		// A = new int[100000];
 		// Random r = new Random();
 		// for (int i = 0; i < 100000; i++) {

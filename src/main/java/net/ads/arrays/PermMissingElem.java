@@ -10,7 +10,7 @@ public class PermMissingElem {
 		A = new int[] {};
 		A = new int[] { 1, 4, 3, 2, 5 };
 		A = new int[] { 2, 3 };
-		A = new int[] { 2, 3, 1 };
+		A = new int[] { 2, 3 ,1};
 		System.out.println(new PermMissingElem().solution(A));
 	}
 

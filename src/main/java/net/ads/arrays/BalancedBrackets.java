@@ -10,7 +10,6 @@ public class BalancedBrackets {
 		String line = "{[()]}";
 		// line = "{[(])}";
 		// line = "{{[[(())]]}}";
-		line="][";
 		System.out.println(isBalanced(line));
 	}
 
@@ -26,7 +25,8 @@ public class BalancedBrackets {
 			return "NO";
 		}
 
-		Queue<Character> opening = Collections.asLifoQueue(new ArrayDeque<>());
+		Queue<Character> opening =
+				Collections.asLifoQueue(new ArrayDeque<>());
 		boolean balanced = true;
 		for (int i = 0; i < s.length(); i++) {
 			char charAt = s.charAt(i);

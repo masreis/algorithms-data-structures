@@ -11,7 +11,8 @@ public class MinPerimeterRectangle {
 		n = 101; // 204
 //		 n = 1;
 //		n = 1234; // 1238
-		System.out.println(new MinPerimeterRectangle().solution(n));
+		System.out.println(
+				new MinPerimeterRectangle().solution(n));
 	}
 
 	public int solution(int N) {

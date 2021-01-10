@@ -18,7 +18,7 @@ public class SolutionTimeConversion {
 		if ((s.endsWith("AM") && hour.equals("12"))) {
 			factor = 12;
 		}
-		Integer intHour = (Integer.valueOf(hour) + factor) % 24;
+		Integer intHour = (Integer.valueOf(hour) + factor)%24;
 		String hourConverted = String.format("%02d", intHour);
 		String rest = s.substring(2, 8);
 		result = hourConverted + rest;

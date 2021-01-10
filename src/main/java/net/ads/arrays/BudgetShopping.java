@@ -53,7 +53,7 @@ class Result {
                     int tempCost = temp[i - cost];
                     int tempI = temp[i];
                     temp[i] = Math.max(tempI, tempCost + quantity);
-                    System.out.println("i: " + i + ", temp: " + temp[i]);
+//                    System.out.println("i: " + i + ", temp: " + temp[i]);
                 }
             }
         }
